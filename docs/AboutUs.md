@@ -11,11 +11,23 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
+### Fathan Mubina
+
+<img src="images/memoflora.png" width="200px">
+
+[[homepage](https://www.fathmubina.com/)]
+[[github](https://github.com/memoflora)]
+[[portfolio](team/memoflora.md)]
+
+* Role: Developer
+* Responsibilities: Backend
+
 ### Yifei
 
 <img src="images/phfabs.png" width="200px">
 
 [github]: https://github.com/phfabs
+[[github](https://github.com/phfabs)]
 [[portfolio](team/phfabs)]
 
 * Role: Developer
@@ -52,12 +64,13 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Rachel
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/e1356231.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/phfabs)]
+[[homepage](http://www.comp.nus.edu.sg/~damithch)]
+[[github](http://github.com/e1356231)]
+[[portfolio](team/e1356231.md)]
 
 * Role: Developer
 * Responsibilities: UI
