@@ -16,6 +16,7 @@ import seedu.address.model.GenerateMemberIds;
 import seedu.address.model.person.Address;
 import seedu.address.model.person.Email;
 import seedu.address.model.person.MemberId;
+import seedu.address.model.person.MembershipJoinDate;
 import seedu.address.model.person.Name;
 import seedu.address.model.person.Person;
 import seedu.address.model.person.Phone;
@@ -48,7 +49,8 @@ public class AddCommandParser implements Parser<AddCommand> {
         Set<Tag> tagList = ParserUtil.parseTags(argMultimap.getAllValues(PREFIX_TAG));
 
         MemberId memberId = GenerateMemberIds.generateNextId();
-        Person person = new Person(memberId, name, phone, email, address, tagList);
+        MembershipJoinDate joinDate = new MembershipJoinDate();
+        Person person = new Person(memberId, name, phone, email, address, joinDate, tagList);
 
         return new AddCommand(person);
     }
